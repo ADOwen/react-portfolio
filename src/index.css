@@ -72,8 +72,10 @@ section > p {
   width: 40%;
 }
 
+/* GENERAL LINKS STYLES */
+
 a {
-  /* color: var(--color-white); */
+  color: var(--color-white);
   transition: var(--transition);
 }
 
