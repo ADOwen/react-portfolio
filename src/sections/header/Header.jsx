@@ -1,4 +1,4 @@
-import HeaderImage from '../../assets/header.jpg'
+import HeaderImage from '../../assets/profile-pic.jpg'
 import data from './data'
 import './header.css'
 
@@ -9,7 +9,7 @@ const Header = () => {
         <div className="header__profile">
           <img src={HeaderImage} alt="Header Portrait" className='header__portrait'/>
         </div>
-        <h3>Placeholder name</h3>
+        <h3>Allan Einhorn</h3>
         <p>
           You are a click away from building your dream website or web app. Send me 
           the details of your project for a modern, mobile responsive, highly 

@@ -1,23 +1,19 @@
-.swiper {
-
-}
-
- .swiper-slide {
+.swiper-slide {
   cursor: grab;
  }
 
- .testimonial__card {
+.testimonial__card {
   margin-bottom: 3rem;
  }
 
- .testimonial__client {
+.testimonial__client {
   display: flex;
   align-items: center;
   gap: 1rem;
   margin-top: 1.5rem;
  }
 
- .testimonial__client-avatar {
+.testimonial__client-avatar {
   width: 2.5rem;
   aspect-ratio: 1/1;
   border-radius: var(--border-radius-2);
