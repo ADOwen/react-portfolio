@@ -21,7 +21,7 @@ const App = () => {
       <FAQS />
       <Contact />
       <Footer />
-      <FloatingNav />
+      {/* <FloatingNav /> */}
     </main>
   )
 };
