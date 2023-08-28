@@ -22,6 +22,19 @@
   align-items: start;
 }
 
+.card.portfolio__project {
+  animation: animateProject 800ms ease-in forwards;
+}
+
+@keyframes animateProject {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .portfolio__project-image {
   width: 100%;
   height: fit-content;
@@ -49,4 +62,29 @@
   background: transparent;
   color: var(--color-primary);
   border-color: var(--color-primary)
+}
+
+/* MEDIA QUERIES (tablets) */
+
+@media screen and (max-width:1024px) {
+  .portfolio__projects {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width:600px) {
+  .portfolio__categories {
+    gap: 0.6rem;
+
+  }
+
+  .btn.cat__btn {
+    padding: 0.7rem 0.8rem;
+  }
+  .portfolio__projects {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
