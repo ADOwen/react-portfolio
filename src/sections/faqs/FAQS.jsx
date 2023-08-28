@@ -2,7 +2,9 @@ import './faqs.css'
 import faqs from './data'
 import FAQ from './FAQ'
 
+
 const FAQS = () => {
+  
   return (
     <section id="faqs">
       <h2>Frequently Asked Questions</h2>

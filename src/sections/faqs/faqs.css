@@ -29,8 +29,15 @@
 
 .faq__answer {
   margin-top: 1rem;
+  opacity: 0;
+  animation: animateAnswer 500ms ease-in forwards;
 }
 
+@keyframes animateAnswer {
+  to {
+    opacity: 1;
+  }
+}
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px){
   .faqs__container {
