@@ -7,7 +7,7 @@ import Testimonials from "./sections/testimonials/Testimonials";
 import FAQS from "./sections/faqs/FAQS";
 import Contact from "./sections/contact/Contact";
 import Footer from "./sections/footer/Footer";
-import Modal from "./components/Modal";
+import Theme from "./theme/Theme";
 import FloatingNav from "./sections/floating-nav/FloatingNav";
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
       <FAQS />
       <Contact />
       <Footer />
-      <Modal/>
+      <Theme/>
       {/* <FloatingNav /> */}
 
     </main>
