@@ -14,7 +14,6 @@ import 'swiper/css/autoplay';
 import { Pagination } from 'swiper/modules';
 
 const Testimonials = () => {
-  console.log(testimonials)
   return (
     <section id="testimonials">
       <h2>What my clients say</h2>
@@ -38,7 +37,6 @@ const Testimonials = () => {
         >
           {
             testimonials.map(testimonial => (
-              console.log(testimonial),
               <SwiperSlide key={testimonial.id}>
                 <Testimonial testimonial={testimonial}/>
               </SwiperSlide>

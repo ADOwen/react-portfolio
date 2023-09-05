@@ -1,7 +1,6 @@
 import Card from '../../components/Card'
 
 const Testimonial = ({testimonial}) => {
-  console.log(testimonial)
   return (
     <Card className='light testimonial__card' >
       <p>{testimonial.quote}</p>
