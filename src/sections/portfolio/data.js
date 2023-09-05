@@ -1,5 +1,5 @@
-import Image1 from '../../assets/project1.jpg'
-import Image2 from '../../assets/project2.jpg'
+import Image1 from '../../assets/game-hub-sm.png'
+import Image2 from '../../assets/crown-clothing-img.jpg'
 import Image3 from '../../assets/project3.jpg'
 import Image4 from '../../assets/project4.jpg'
 import Image5 from '../../assets/project5.jpg'
@@ -11,21 +11,21 @@ import Image9 from '../../assets/project9.jpg'
 const data = [
     {
         id: 1,
-        category: 'uiux',
+        category: 'frontend',
         image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: '#',
-        github: '#'
+        title: "GameHub (Frontend)",
+        desc: "A game discovery app where you can search for video games using the Rawg.io API.",
+        demo: 'https://game-hub-allan.vercel.app/',
+        github: 'https://github.com/ADOwen/game-hub'
     },
     {
         id: 2,
         category: 'frontend',
         image: Image2,
-        title: "Project Title Two (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: '#',
-        github: '#'
+        title: "Crown Clothing (Fullstack)",
+        desc: "An e-commerce website I engineered using React and Firebase",
+        demo: 'https://allans-crown-clothing.netlify.app/',
+        github: 'https://github.com/ADOwen/crown-clothing'
     },
     {
         id: 3,

@@ -17,7 +17,7 @@ header {
 
 .header__profile {
   width: 18rem;
-  height: 22rem;
+  height: 20rem;
   border-radius: 9rem 9rem 2rem 2rem;
   overflow: hidden;
   margin-bottom: 1.5rem;
@@ -64,13 +64,12 @@ header {
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
   header {
-    margin-top: 0;
     height: 100vh;
-
   }
 }
 
 @media screen and (max-width: 600px) {
+
   .header_profile {
     width: 14rem;
     height: 17rem;
