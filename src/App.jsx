@@ -54,7 +54,6 @@ const App = () => {
       <About/>
       <Services/>
       <Portfolio/>
-      <Testimonials />
       <FAQS />
       <Contact />
       <Footer />
