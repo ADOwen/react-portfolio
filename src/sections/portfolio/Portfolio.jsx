@@ -23,11 +23,10 @@ const Portfolio = () => {
     <section id="portfolio">
       <h2>Recent Projects</h2>
       <p>
-        Check out some of my recent projects. Use the buttons
-        to toggle different categories.
+        Check out some of my recent projects.
       </p>
       <div className="portfolio__container">
-        <ProjectCategories categories={uniqueCategories} onFilterProjects = {filterProjectsHandler}/>
+     
         <Projects projects={projects}/>
       </div>
     </section>
