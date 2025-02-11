@@ -1,8 +1,8 @@
 import AboutImage from '../../assets/about-me-pic.jpg';
 import CV from '../../assets/cv.pdf';
 import {HiDownload} from 'react-icons/hi';
-import Card from '../../components/Card';
-import data from './data';
+// import Card from '../../components/Card';
+// import data from './data';
 import './about.css';
 
 const About = () => {
@@ -15,8 +15,8 @@ const About = () => {
           </div>
         </div>
         <div className="about__right">
-          <h2>About Me</h2>
-          <div className="about__cards">
+          <h2 className="about__header">About Me</h2>
+          {/* <div className="about__cards">
             {
               data.map(item => {
                 return <Card key={item.id} className='about__card'>
@@ -26,12 +26,7 @@ const About = () => {
                 </Card>
               })
             }
-          </div>
-          <p>
-            Building projects my clients love has always been my passion.
-            Being in the web development industry for 2 years and serving
-            happy clients worldwide, I'm always motivated to do more!
-          </p>
+          </div> */}
           <p>
             Hi, I'm a full-stack web developer. My top priority is to get your
             business online the right way, giving you industry-standard design
@@ -39,11 +34,23 @@ const About = () => {
             in touch today with the details of your project let's get started!
             Check out my resume below!
           </p>
-          <a href={CV} download className='btn primary'>Download CV <HiDownload/></a>
+          <p>
+            Outside of development, I enjoy cooking, playing guitar, and
+            unwinding with a good video game. I bring enthusiasm and dedication
+            to everything I do, both professionally and personally. As a father,
+            I’ve learned the importance of patience, adaptability, and finding
+            joy in life’s little moments. Whether it’s building meaningful
+            projects or cherishing time with loved ones, I believe in being
+            present, continuously growing, and always striving to create
+            something truly valuable.
+          </p>
+          <a href={CV} download className="btn primary">
+            Download CV <HiDownload />
+          </a>
         </div>
       </div>
     </section>
-  )
+  );
 };
 
 export default About;

@@ -61,6 +61,10 @@
   margin-top: 2.5rem;
 }
 
+.about__header {
+  padding-bottom: 1rem;
+}
+
 /* MEDIA QUEIRES (tablets) */
 
 @media screen and (max-width: 1024px) {
